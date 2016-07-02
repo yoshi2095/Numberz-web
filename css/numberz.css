@@ -1,0 +1,357 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue/HelveticaNeue.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+body {
+  margin: 0;
+  font-family: 'HelveticaNeue' sans-serif;
+}
+
+section {
+  width: 100%;
+  padding: 0;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #FFF;
+  height: 60vh;
+}
+
+/*Alternate color scheme*/
+section:nth-of-type(odd) {
+ background-color: #152844;
+}
+
+section:nth-child(8) {
+  background-color: #33BBDB;
+}
+
+section:nth-child(9) {
+  background-color: #FFF;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.numberz-logo {
+  background: url(../img/image2.png) no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.numberz-navbar {
+  margin: 0;
+  padding: 10px;
+}
+
+
+
+.contact a{
+  text-decoration: none;
+  color: #888888;
+
+}
+
+.numberz-hero {
+  background: url(../img/new/bg.png);
+  background-repeat: no-repeat;
+  margin: 0 -25px;
+  background-size: contain;
+}
+
+.intro {
+  position: absolute;
+  color: #fff;
+  top: 12%;
+  left: 10%;
+}
+
+.social{
+  display: inline;
+  cursor: pointer;
+  float: right;
+  position: fixed; 
+  bottom: 0px; 
+  right: 0px;
+  /*margin-left: 10px;
+  margin-right: 50px; 
+  margin-top: 70px;*/
+}
+
+.intro-heading {
+  font-family: 'HelveticaNeue', Arial;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.intro-para {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.btn-signup {
+  padding: 15px 70px;
+  background-color: #F59D1F;
+  color: #FFF;
+  letter-spacing: 1px;
+}
+
+nav>ul>li>a {
+  color: #6A6A6A;
+  font-size: 14px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: #FFF;
+  color: #40CCED;
+}
+
+.signup-link {
+  border: 1px solid #40CCED;
+  border-radius: 10px;
+  padding: 5px 15px !important;
+  margin-top: 10px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.blue-text-color {
+  color: #33BBDB;
+}
+
+.list-style-1 {
+  list-style: none;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.list-style li 
+{
+  list-style: none;
+  display:inline;
+  padding: 20px;
+}
+
+.content {
+  padding: 30px 10px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.logo {
+  /*width: 100%;*/
+  height: 75px;
+  /*position: relative;*/
+  margin-left: 60px;
+}
+
+.logo-2 {
+  height: 75px;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+/*.logo-3 {
+  height: 85px;
+  position: relative;
+  /*margin-left: auto;
+  margin-right: 50%;
+}*/
+.description {
+  text-align: center;
+  font-size: 22px;
+  padding: 20px 10px;
+}
+
+.inv-management {
+  background: url(../img/new/inv_management.png) no-repeat;
+}
+
+.expense-management {
+  background: url(../img/new/expense_management.png) no-repeat;
+}
+
+.connect-bank {
+  background: url(../img/new/bank.png) no-repeat;
+}
+
+.advances-invoices {
+  background: url(../img/new/adv_invoices.png) no-repeat;
+}
+
+.acc-collaboration {
+  background: url(../img/new/acc_collaboration.png) no-repeat;
+}
+
+
+.download-transactions {
+  background: url(../img/new/download.png) no-repeat;
+}
+
+.reconcile-transactions {
+  background: url(../img/new/reconcile.png) no-repeat;
+}
+
+.multiple-excels {
+  background: url(../img/new/excels.png) no-repeat;
+}
+
+/*.quickbook{
+  background: url(../img/new/image17.png) no-repeat;
+}
+
+.excel{
+  background: url(../img/new/image18.png) no-repeat;
+}
+
+.tally{
+  background: url(../img/new/image19.png) no-repeat;
+}*/
+
+.integration-logos{
+  background: url(../img/new/group5.png) no-repeat;
+}
+
+.comments-section-1 {
+  /*transform: translate(35%,15%);*/
+  position: relative;
+  margin-left: 40%;
+  margin-bottom: -30px;
+}
+
+.human-1 {
+  background: url(../img/new/human1.png) no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  margin-bottom: -30px;
+}
+
+.human-6 {
+  background: url(../img/new/human6.png) no-repeat;
+  width: 150%;
+  height: 250px;
+  background-size: contain;
+  margin-bottom: -52px;
+}
+
+.comment-1 {
+  color: #888888;
+  font-size: 18px;
+  position: absolute;
+  left: 0px;
+  width: 90%;
+  top: 70px;
+}
+
+.comment-6 {
+  color: #FFF;
+  font-size: 18px;
+  position: absolute;
+  left: 30px;
+  width: 150%;
+  top: -10px;
+}
+
+.padding-20 {
+  padding: 20px 50px;
+}
+
+.padding-30 {
+  padding: 30px 80px;
+}
+
+.primary-headline {
+  color: #33BBDB;
+  font-weight: lighter;
+}
+
+.supporting-text {
+  font-size: 22px;
+  font-weight: lighter;
+  color: #FFF;
+}
+
+.centerBlock {
+  display: table;
+  margin: 0 auto;
+  }
+
+.white-text-color {
+  color: #FFF;
+}
+
+.grey-text-color {
+  color: #5D5D5D;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.left-image-position {
+  margin-left: -10px;
+  width: 100%;
+}
+
+.right-image-position {
+  position: relative;
+  right: -10px;
+  width: 100%;
+}
+
+.bottom-image-position {
+  margin-top: 0px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.hero-bg {
+  height: 70vh;
+  width: 100%;
+}
+
+.font-weight-light {
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 500px) {
+  .intro-heading {
+    font-size: 2em;
+  }
+  .intro-para {
+    font-size: 16px;
+  }
+  .logo {
+    margin-left: 40px;
+  }
+  .download-transactions {
+    margin-left: 40%;
+  }
+  .comment-1 {
+    top: 20px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  .download-transactions {
+    margin-left: 40%;
+  }
+}

@@ -360,6 +360,9 @@ nav>ul>li>a {
   .comment-1 {
     top: 20px;
   }
+  .comment-6-container {
+    height: 150px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 800px) {
@@ -369,5 +372,8 @@ nav>ul>li>a {
 
   .download-transactions {
     margin-left: 40%;
+  }
+  .comment-6-container {
+    height: 150px;
   }
 }

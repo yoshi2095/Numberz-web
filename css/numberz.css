@@ -14,7 +14,6 @@ section {
   margin: 0;
   max-width: none;
   background-color: #FFF;
-  height: 60vh;
 }
 
 /*Alternate color scheme*/
@@ -35,7 +34,7 @@ section:nth-child(9) {
 }
 
 .numberz-logo {
-  background: url(../img/image2.png) no-repeat;
+  background: url(../img/new/image2.png) no-repeat;
   background-size: contain;
   width: 150px;
   height: auto;
@@ -73,18 +72,18 @@ section:nth-child(9) {
   display: inline;
   cursor: pointer;
   float: right;
-  position: fixed; 
-  bottom: 0px; 
+  position: fixed;
+  bottom: 0px;
   right: 0px;
   /*margin-left: 10px;
-  margin-right: 50px; 
+  margin-right: 50px;
   margin-top: 70px;*/
 }
 
 .intro-heading {
   font-family: 'HelveticaNeue', Arial;
   font-size: 38px;
-  font-weight: bold;
+  font-weight: lighter;
   letter-spacing: 1px;
 }
 
@@ -133,7 +132,7 @@ nav>ul>li>a {
   padding: 10px;
 }
 
-.list-style li 
+.list-style li
 {
   list-style: none;
   display:inline;
@@ -175,6 +174,10 @@ nav>ul>li>a {
 
 .inv-management {
   background: url(../img/new/inv_management.png) no-repeat;
+  /*position: absolute;
+  left: 50%;
+  transform: translate(-50%,50%);
+  height: 35px;*/
 }
 
 .expense-management {
@@ -245,6 +248,11 @@ nav>ul>li>a {
   margin-bottom: -52px;
 }
 
+.comment {
+  font-weight: 400;
+  font-style: italic;
+}
+
 .comment-1 {
   color: #888888;
   font-size: 18px;
@@ -254,12 +262,15 @@ nav>ul>li>a {
   top: 70px;
 }
 
+.comment-5 {
+  padding-left: 20px;
+}
+
 .comment-6 {
   color: #FFF;
   font-size: 18px;
   position: absolute;
   left: 30px;
-  width: 150%;
   top: -10px;
 }
 
@@ -289,6 +300,11 @@ nav>ul>li>a {
 
 .white-text-color {
   color: #FFF;
+}
+
+.autosize {
+  width: auto;
+  height: auto;
 }
 
 .grey-text-color {

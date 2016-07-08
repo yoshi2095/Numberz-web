@@ -337,6 +337,8 @@ nav>ul>li>a {
 .hero-bg {
   height: 70vh;
   width: 100%;
+  -o-object-fit:cover;
+     object-fit:cover;
 }
 
 .font-weight-light {

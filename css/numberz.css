@@ -49,7 +49,7 @@ section:nth-child(9) {
 
 
 
-.contact a{
+.contact a, .contact li{
   text-decoration: none;
   color: #888888;
 

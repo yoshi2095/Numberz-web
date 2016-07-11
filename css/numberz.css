@@ -196,6 +196,10 @@ nav>ul>li>a {
   padding: 20px 10px;
 }
 
+.no-padding-bottom {
+  padding-bottom: 0px important!;
+}
+
 .inv-management {
   background: url(../img/new/inv_management.png) no-repeat;
   /*position: absolute;

@@ -282,9 +282,13 @@ nav>ul>li>a {
   font-style: normal;
 }
 
+.font-16 {
+  font-size: 16px;
+}
+
 .comment-1 {
   color: #888888;
-  font-size: 18px;
+  font-size: 16px;
   position: absolute;
   left: 0px;
   width: 90%;
@@ -293,7 +297,7 @@ nav>ul>li>a {
 
 .comment-6 {
   color: #FFF;
-  font-size: 18px;
+  font-size: 16px;
   position: absolute;
   left: 30px;
   top: -10px;
@@ -404,10 +408,6 @@ nav>ul>li>a {
   .comment-6-container {
     height: 150px;
   }
-}
-
-. {
-  z-index: -1;
 }
 
 @media all and (max-width: 768px){

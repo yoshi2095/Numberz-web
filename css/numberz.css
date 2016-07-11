@@ -389,6 +389,7 @@ nav>ul>li>a {
   }
   .comment-6-container {
     height: 150px;
+    z-index: 90;
   }
 }
 
@@ -404,6 +405,11 @@ nav>ul>li>a {
     height: 150px;
   }
 }
+
+. {
+  z-index: -1;
+}
+
 @media all and (max-width: 768px){
   .footer-company-connect{
     text-align: center;

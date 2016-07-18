@@ -37,14 +37,14 @@ section:nth-child(9) {
 .numberz-logo {
   background: url(../img/new/image2.png) no-repeat;
   background-size: contain;
-  width: 150px;
+  width: 218px;
   height: auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .numberz-navbar {
   margin: 0;
-  padding: 10px;
+  padding: 20px;
 }
 
 
@@ -63,10 +63,11 @@ section:nth-child(9) {
 }
 
 .intro {
+  max-width:1170px;
   position: absolute;
   color: #fff;
-  top: 12%;
-  left: 10%;
+  top: 22%;
+  left: 12%;
 }
 
 .social{
@@ -82,29 +83,44 @@ section:nth-child(9) {
 }
 
 .intro-heading {
-  font-family: 'HelveticaNeue', Arial;
+  font-family: 'HelveticaNeue';
   font-size: 38px;
-  font-weight: lighter;
-  letter-spacing: 1px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 120%;
 }
 
 .intro-para {
-  font-family: Arial;
+  font-family: 'HelveticaNeue';
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 1px;
+  font-weight:lighter;
 }
 
 .btn-signup {
-  padding: 15px 70px;
+  font-size:21px;
+  padding: 15px 60px;
   background-color: #F59D1F;
   color: #FFF;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  box-shadow: 0px 2px 3px #3e3733;
+}
+
+a:hover .btn-signup{
+  font-size:21px;
+  padding: 15px 60px;
+  background-color: #FFAF00;
+  color: #FFF;
+  letter-spacing: 2px;
+  box-shadow: 0px 3px 3px #3e3733;
 }
 
 nav>ul>li>a {
   color: #6A6A6A;
-  font-size: 14px;
+  font-size: 15px;
+  letter-spacing:1px;
+  margin-left:10px;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
@@ -114,8 +130,8 @@ nav>ul>li>a {
 
 .signup-link {
   border: 2px solid #40CCED;
-  border-radius: 5px;
-  padding: 5px 15px !important;
+  border-radius: 8px;
+  padding: 5px 20px !important;
   margin-top: 6px;
 }
 
@@ -175,12 +191,12 @@ nav>ul>li>a {
   /*width: 100%;*/
   height: 75px;
   /*position: relative;*/
-  margin-left: 60px;
+/*   margin-left: 60px; */
 }
 
 .logo-2 {
   height: 75px;
-  margin-left: 35%;
+/*   margin-left: 35%; */
   margin-top: 10px;
 }
 
@@ -191,9 +207,13 @@ nav>ul>li>a {
   margin-right: 50%;
 }*/
 .description {
+  margin:auto;
+  max-width:400px;
+  font-family:'HelveticaNeue';
+  font-weight:"medium";
   text-align: center;
   font-size: 22px;
-  padding: 20px 10px;
+  padding: 50px 25px;
 }
 
 .no-padding-bottom {
@@ -206,35 +226,44 @@ nav>ul>li>a {
   left: 50%;
   transform: translate(-50%,50%);
   height: 35px;*/
+  background-position : center;
 }
 
 .expense-management {
   background: url(../img/new/expense_management.png) no-repeat;
+  background-position : center;
 }
 
 .connect-bank {
   background: url(../img/new/bank.png) no-repeat;
+  background-position : center;
+
 }
 
 .advances-invoices {
   background: url(../img/new/adv_invoices.png) no-repeat;
+  background-position : center;
 }
 
 .acc-collaboration {
   background: url(../img/new/acc_collaboration.png) no-repeat;
+  background-position : center;
 }
 
 
 .download-transactions {
   background: url(../img/new/download.png) no-repeat;
+  background-position : center;
 }
 
 .reconcile-transactions {
   background: url(../img/new/reconcile.png) no-repeat;
+  background-position : center;
 }
 
 .multiple-excels {
   background: url(../img/new/excels.png) no-repeat;
+  background-position : center;
 }
 
 /*.quickbook{
@@ -277,22 +306,28 @@ nav>ul>li>a {
 }
 
 .comment {
-  font-weight: 400;
-  font-style: italic;
+  letter-spacing:2px;
+  line-height:170%;
+  font-weight: 200;
 }
 
 .citation {
-  font-size: 14px;
+  padding-top:10px;
+  letter-spacing:1px;
+  line-height:170%;
+  font-size: 12px;
+  letter-spacing:2px;
+  line-height:140%;
   font-style: normal;
 }
 
 .font-16 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .comment-1 {
   color: #888888;
-  font-size: 16px;
+  font-size: 18px;
   position: absolute;
   left: 0px;
   width: 90%;
@@ -316,13 +351,17 @@ nav>ul>li>a {
 }
 
 .primary-headline {
-  color: #33BBDB;
+  color: #33BBDB ;
   font-weight: lighter;
+  letter-spacing:1px;
+  line-height:110%
 }
 
 .supporting-text {
   font-size: 22px;
   font-weight: lighter;
+  letter-spacing:1px;
+  line-height:140%;
   color: #FFF;
 }
 
@@ -347,6 +386,8 @@ nav>ul>li>a {
 .font-18 {
   font-size: 18px;
 }
+
+
 
 .left-image-position {
   margin-left: -10px;
@@ -380,11 +421,66 @@ nav>ul>li>a {
 }
 
 @media only screen and (max-width: 500px) {
+  .intro{
+    margin:auto;
+    left:0;
+    top:25%;
+  }
+
   .intro-heading {
-    font-size: 2em;
+    width:90%;
+    padding:0;
+    margin:auto;
+    font-size: 2.8rem;
+    text-align:center;
+    text-shadow: 0px 2px 1px #3e3733;
+  }
+  .btn-signup{
+    font-size:1.2em;
+    margin-left:10%;
+    width:80%;
+
+  }
+  .text-align-center{
+    font-size:2.8rem;
+    line-height:140%;
+  }
+  .font-16 {
+  font-size: 1.6rem;
+  width:90%;
+}
+  .primary-headline {
+    font-size:2.8rem;
+    line-height:140%;
+    text-align:center;
+    width:95%;
+    padding-top:10px;
+    margin:auto;
+  }
+  .supporting-text {
+    font-weight:text;
+    font-size:1.6rem;
+    line-height:150%;
+  }
+  a:hover .btn-signup{
+    font-size:1.2em;
+    margin-left:10%;
+  width:80%;
   }
   .intro-para {
+    text-shadow: 0px 1px 1px #3e3733;
     font-size: 16px;
+    margin:auto;
+    width:80%;
+  }
+  .comment{
+    font-size:1.2rem;
+  }
+  .comment-1{
+    font-size:1.2rem;
+  }
+  .citation{
+    font-size:1rem;
   }
   .logo {
     margin-left: 40px;
@@ -399,6 +495,31 @@ nav>ul>li>a {
     height: 150px;
     z-index: 90;
   }
+  center{
+    text-align:center;
+    margin:auto;
+  }
+  .description {
+    padding: 20px 15px;
+
+    font-size:2rem;
+  }
+  .inv-management,.expense-management,.connect-bank, .advances-invoices, .acc-collaboration {
+/*     background-size:100%; */
+    width:70%;
+    margin:auto;
+    padding-bottom:14px;
+  }
+
+.logo-2{
+  margin:auto;
+}
+
+.bottom-image-position{
+  margin:auto;
+  width:70%;
+}
+
 }
 
 @media (min-width: 500px) and (max-width: 800px) {

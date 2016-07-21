@@ -80,9 +80,34 @@
 							<p class="intro-para font-weight-light">Manage your day-to-day cash-flow and<br/> get advances on your future payments with ease.</p>
 							<br/>
 							<br/>
-							<a href="https://app.numberz.in/app/signup">
-								<button class="btn btn-signup uppercase">Try now for free</button>
-							</a>
+							<div class="row">
+								<div class="col-md-12 col-sm-offset-1 col-sm-11 lsq-form">
+									<form method="post" enctype="multipart/form-data" action="https://web.mxradon.com/t/FormTracker.aspx">
+										<label for='Company'>Company Name *</label>
+										<br/>
+										<input type='text' id='Company' name='Company' maxlength='100' value='' autocomplete='off' required='required' />
+										<br/>
+										<label for='EmailAddress'>Email *</label>
+										<br/>
+										<input type='text' id='EmailAddress' name='EmailAddress' maxlength='100' value='' autocomplete='off' required='required' />
+										<br/>
+										<label for='Phone'>Phone Number *</label>
+										<br/>
+										<input type='text' id='Phone' name='Phone' maxlength='20' value='' autocomplete='off' required='required' />
+										<br/>
+										<button id="form-submit-button" type="submit">TRY NOW FOR FREE!</button><br />
+										<input type="hidden" name="MXHOrgCode" value="11724" /> <input type="hidden" name="MXHLandingPageId" value="5eeb64d9-4f30-11e6-96be-22000aa8e760" />
+										<input type="hidden" name="MXHFormBehaviour" value="1" />
+										<input type="hidden" name="MXHFormDataTransfer" value="2" />
+										<input type="hidden" name="MXHRedirectUrl" value="https://app.numberz.in/app/signup" />
+										<input type="hidden" name="MXHAsc" value="5" />
+										<input type="hidden" name="MXHPageTitle" value="Try now form" />
+										<input type="hidden" name="MXHOutputMessagePosition" value="0" />
+										<input type="hidden" name="MXHIsExternallyUsed" value="1" />
+									</form>
+									<script type="text/javascript"> var MXLandingPageId = '5eeb64d9-4f30-11e6-96be-22000aa8e760'; </script>
+								</div>
+							</div>
 						</div>
 						<img class="img-responsive hero-bg" alt="" src="./img/new/bg.png" />
 				 </div>
@@ -364,7 +389,7 @@
                                   <ul class="contact list-style-none">
                                       <li class="uppercase blue-text-color">Company</li>
                                       <li class="active uppercase"><a href="aboutUs.html">About</a></li>
-                                      <li class="uppercase"><a href="">Careers</a></li>
+                                      <li class="uppercase"><a href="https://angel.co/getfiscal/jobs">Careers</a></li>
                                       <li class="uppercase"><a href="">Blog</a></li>
                                   </ul>
                               </div>
@@ -381,8 +406,8 @@
                               <div class="col-md-4 col-sm-4 col-lg-4 col-xlg-4 col-xs-12">
                                   <ul class="contact list-style-none">
                                   <li class="uppercase blue-text-color">help</li>
-                                  <li class="active uppercase"><a href="">Privacy policy</a></li>
-                                  <li class="uppercase"><a href="">Terms of service</a></li>
+                                  <li class="active uppercase"><a href="docs/PrivacyPolicy.docx">Privacy policy</a></li>
+                                  <li class="uppercase"><a href="docs/TermsConditions.docx">Terms of service</a></li>
                                   </ul>
                               </div>
                             </div>
@@ -454,5 +479,11 @@
 	<script type="text/javascript" src="./js/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./js/modernizr.custom.js"></script>
+	<!--LeadSquared Tracking Code Start-->
+	<script type="text/javascript" src="http://web.mxradon.com/t/Tracker.js"></script>
+	<script type="text/javascript">
+	      pidTracker('11724');
+	</script>
+	<!--LeadSquared Tracking Code End-->
 </body>
 </html>

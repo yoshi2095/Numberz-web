@@ -47,6 +47,31 @@ section:nth-child(9) {
   padding: 20px;
 }
 
+.lsq-form input {
+  height: 40px;
+  width: 80%;
+  border-style: none;
+  border-radius: 4px;
+  color: #000;
+  padding: 10px;
+}
+
+.lsq-form label {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.lsq-form button {
+  margin-top: 22px;
+  height: 50px;
+  width: 80%;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #F59D1F;
+  font-size: 21px;
+  box-shadow: 0px 2px 3px #3e3733;
+}
+
 
 
 .contact a, .contact li{
@@ -66,7 +91,7 @@ section:nth-child(9) {
   max-width:1170px;
   position: absolute;
   color: #fff;
-  top: 22%;
+  top: 14%;
   left: 12%;
 }
 
@@ -424,7 +449,10 @@ nav>ul>li>a {
   .intro{
     margin:auto;
     left:0;
-    top:25%;
+  }
+
+  .intro .lsq-form {
+    left: auto;
   }
 
   .intro-heading {

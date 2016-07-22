@@ -446,7 +446,7 @@ nav>ul>li>a {
 }
 
 @media only screen and (max-width: 500px) {
-  .intro{
+  .intro {
     margin:auto;
     left:0;
   }
@@ -513,9 +513,6 @@ nav>ul>li>a {
   .logo {
     margin-left: 40px;
   }
-  .download-transactions {
-    margin-left: 40%;
-  }
   .comment-1 {
     top: 20px;
   }
@@ -543,7 +540,7 @@ nav>ul>li>a {
   margin:auto;
 }
 
-.bottom-image-position{
+.bottom-image-position {
   margin:auto;
   width:70%;
 }

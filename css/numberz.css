@@ -5,7 +5,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: 'HelveticaNeue' sans-serif;
+  font: 'HelveticaNeue' sans-serif;
 }
 
 section {
@@ -49,7 +49,7 @@ section:nth-child(9) {
 
 .lsq-form input {
   height: 40px;
-  width: 80%;
+  width: 100%;
   border-style: none;
   border-radius: 4px;
   color: #000;
@@ -64,7 +64,7 @@ section:nth-child(9) {
 .lsq-form button {
   margin-top: 22px;
   height: 50px;
-  width: 80%;
+  width: 100%;
   border-style: none;
   border-radius: 4px;
   background-color: #F59D1F;
@@ -108,7 +108,7 @@ section:nth-child(9) {
 }
 
 .intro-heading {
-  font-family: 'HelveticaNeue';
+  font: 'HelveticaNeue';
   font-size: 38px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -116,7 +116,7 @@ section:nth-child(9) {
 }
 
 .intro-para {
-  font-family: 'HelveticaNeue';
+  font: 'HelveticaNeue';
   font-size: 20px;
   font-weight: normal;
   letter-spacing: 1px;
@@ -234,7 +234,7 @@ nav>ul>li>a {
 .description {
   margin:auto;
   max-width:400px;
-  font-family:'HelveticaNeue';
+  font:'HelveticaNeue';
   font-weight:"medium";
   text-align: center;
   font-size: 22px;
@@ -362,7 +362,6 @@ nav>ul>li>a {
 .comment-6 {
   color: #FFF;
   font-size: 16px;
-  position: absolute;
   left: 30px;
   top: -10px;
 }
@@ -445,7 +444,17 @@ nav>ul>li>a {
   letter-spacing: 1px;
 }
 
+.font-weight-normal {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
 @media only screen and (max-width: 500px) {
+
+  .lsq-form input, .lsq-form button {
+    max-width: 80%;
+  }
+
   .intro {
     margin:auto;
     left:0;
@@ -548,6 +557,9 @@ nav>ul>li>a {
 }
 
 @media (min-width: 500px) and (max-width: 800px) {
+  .lsq-form input, .lsq-form button {
+    width: 80%;
+  }
   .logo {
     margin-left: 20px;
   }

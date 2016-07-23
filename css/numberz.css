@@ -109,7 +109,7 @@ section:nth-child(9) {
 
 .intro-heading {
   font: 'HelveticaNeue';
-  font-size: 38px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 120%;
@@ -210,6 +210,10 @@ nav>ul>li>a {
 
 .font-30 {
   font-size: 30px;
+}
+
+.font-36 {
+  font-size: 36px;
 }
 
 .logo {
@@ -352,11 +356,14 @@ nav>ul>li>a {
 
 .comment-1 {
   color: #888888;
-  font-size: 18px;
   position: absolute;
   left: 0px;
   width: 90%;
   top: 70px;
+}
+
+.comment-1 .citation {
+  width: 150%;
 }
 
 .comment-6 {

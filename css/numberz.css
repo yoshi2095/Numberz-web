@@ -348,6 +348,7 @@ nav>ul>li>a {
 }
 
 .citation {
+  font-family: 'KaoriGel', 'Patrick Hand', 'HelveticaNeue';
   padding-top:10px;
   letter-spacing:1px;
   line-height:170%;

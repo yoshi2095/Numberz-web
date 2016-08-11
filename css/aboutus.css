@@ -400,6 +400,11 @@ nav>ul>li>a {
   letter-spacing: 1px;
 }
 
+.special-div {
+  width: 1170px;
+  margin: auto;
+}
+
 @media only screen and (max-width: 500px) {
   .intro-heading {
     font-size: 2em;
@@ -428,6 +433,10 @@ nav>ul>li>a {
     width: 25px;
     height: auto;
     margin-top: 18px;
+  }
+  .special-div {
+    width: 100%;
+    margin: 0;
   }
 }
 

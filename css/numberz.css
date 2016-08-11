@@ -2,6 +2,12 @@
   font-family: 'HelveticaNeue';
   src: url('../fonts/HelveticaNeue/HelveticaNeue.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
+
+@font-face {
+  font-family: 'KaoriGel';
+  src: url('../fonts/KaoriGel/KaoriGel.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -39,7 +45,7 @@ section:nth-child(9) {
   background-size: contain;
   width: 218px;
   height: auto;
-  margin-top: 20px;
+  margin-top: 14px;
 }
 
 .numberz-navbar {
@@ -125,7 +131,7 @@ section:nth-child(9) {
 
 .btn-signup {
   font-size:21px;
-  padding: 15px 60px;
+  padding: 15px 30px;
   background-color: #F59D1F;
   color: #FFF;
   letter-spacing: 2px;
@@ -174,7 +180,7 @@ nav>ul>li>a {
   color: #33BBDB;
 }
 .footer-company-connect{
-  text-align: right;
+  text-align: center;
 }
 .company-social-links{
   padding: 0;
@@ -335,6 +341,7 @@ nav>ul>li>a {
 }
 
 .comment {
+  font-family: 'KaoriGel', 'Patrick Hand', 'HelveticaNeue';
   letter-spacing:2px;
   line-height:170%;
   font-weight: 200;
@@ -363,7 +370,7 @@ nav>ul>li>a {
 }
 
 .comment-1 .citation {
-  width: 150%;
+  /*width: 150%;*/
 }
 
 .comment-6 {
@@ -456,15 +463,21 @@ nav>ul>li>a {
   letter-spacing: 1px;
 }
 
+.special-div {
+  width: 1170px;
+  margin: auto;
+}
+
 @media only screen and (max-width: 500px) {
 
   .lsq-form input, .lsq-form button {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .intro {
     margin:auto;
     left:0;
+    top: 30%;
   }
 
   .intro .lsq-form {
@@ -472,17 +485,17 @@ nav>ul>li>a {
   }
 
   .intro-heading {
-    width:90%;
-    padding:0;
-    margin:auto;
-    font-size: 2.8rem;
-    text-align:center;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    font-size: 2.3rem;
+    text-align: center;
     text-shadow: 0px 2px 1px #3e3733;
   }
   .btn-signup{
     font-size:1.2em;
-    margin-left:10%;
-    width:80%;
+    /*margin-left:10%;*/
+    /*width:80%;*/
 
   }
   .text-align-center{
@@ -490,9 +503,9 @@ nav>ul>li>a {
     line-height:140%;
   }
   .font-16 {
-  font-size: 1.6rem;
-  width:90%;
-}
+    font-size: 1.6rem;
+    width: 100%;
+  }
   .primary-headline {
     font-size:2.8rem;
     line-height:140%;
@@ -509,28 +522,27 @@ nav>ul>li>a {
   a:hover .btn-signup{
     font-size:1.2em;
     margin-left:10%;
-  width:80%;
+    width:80%;
   }
   .intro-para {
     text-shadow: 0px 1px 1px #3e3733;
     font-size: 16px;
     margin:auto;
     width:80%;
+    text-align: center;
   }
   .comment{
     font-size:1.2rem;
   }
   .comment-1{
-    font-size:1.2rem;
+    font-size:1rem;
+    top: -10px;
   }
   .citation{
     font-size:1rem;
   }
   .logo {
     margin-left: 40px;
-  }
-  .comment-1 {
-    top: 20px;
   }
   .comment-6-container {
     height: 150px;
@@ -542,7 +554,6 @@ nav>ul>li>a {
   }
   .description {
     padding: 20px 15px;
-
     font-size:2rem;
   }
   .inv-management,.expense-management,.connect-bank, .advances-invoices, .acc-collaboration {
@@ -552,20 +563,50 @@ nav>ul>li>a {
     padding-bottom:14px;
   }
 
-.logo-2{
-  margin:auto;
-}
+  .logo-2{
+    margin:auto;
+  }
 
-.bottom-image-position {
-  margin:auto;
-  width:70%;
-}
+  .bottom-image-position {
+    margin:auto;
+    width:70%;
+  }
 
+  .hero-bg {
+    height: 100vh;
+  }
+
+  .last-logo-alignment {
+    left: 25%;
+  }
+
+  /*.right-image-position {
+    right: 0;
+  }*/
+
+  .img-client-1 {
+    margin-left: 65%;
+    margin-top: 30%;
+  }
+
+  .list-style-none {
+    text-align: left;
+  }
+
+  .company-social-links img {
+    width: 25px;
+    height: auto;
+    margin-top: 18px;
+  }
+  .special-div {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 800px) {
   .lsq-form input, .lsq-form button {
-    width: 80%;
+    width: 100%;
   }
   .logo {
     margin-left: 20px;
@@ -586,4 +627,21 @@ nav>ul>li>a {
   .footer-company{
     text-align: center;
   }
+}
+
+.blue-border {
+  border: 1px solid #35ccef;
+}
+
+.blue-bg {
+  background-color: #35ccef;
+}
+
+.contact-footer li, .contact-footer a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.contact-footer .blue-text-color {
+  color: #33BBDB;
 }

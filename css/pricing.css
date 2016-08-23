@@ -122,6 +122,10 @@ section:nth-child(9) {
   margin-top: 70px;*/
 }
 
+.page-header {
+  border: none;
+}
+
 .intro-heading {
   font-family: 'HelveticaNeue', Arial;
   font-size: 38px;

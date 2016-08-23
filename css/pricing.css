@@ -146,7 +146,7 @@ section:nth-child(9) {
 }
 
 .btn-trynow {
-  padding: 15px 70px;
+  padding: 15px;
   background-color: #F59D1F;
   color: #FFF;
   letter-spacing: 1px;
@@ -348,6 +348,14 @@ nav>ul>li>a {
   font-style: normal;
 }
 
+.pricing-amount {
+  margin-bottom: 0;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
 .font-16 {
   font-size: 16px;
 }
@@ -500,6 +508,10 @@ nav>ul>li>a {
   .pricing-amount {
     font-size: 2.2em;
     margin-bottom: 0;
+  }
+
+  .pricing-cycle {
+    font-size: 10px;
   }
 }
 

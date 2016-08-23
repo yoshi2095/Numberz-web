@@ -73,9 +73,14 @@ section:nth-child(9) {
 
 .feature-list > li {
   list-style: none;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 1px;
   margin: 5px;
+  cursor: pointer;
+}
+
+.feature-list > li > a:hover {
+  text-decoration: none;
 }
 
 .list-grey-bg {
@@ -83,7 +88,7 @@ section:nth-child(9) {
 }
 
 .list-blue-bg {
-  color: #35ccef;
+  color: #33BBDB;
 }
 
 .font-weight-normal {
@@ -183,6 +188,11 @@ section:nth-child(9) {
   font-size: 24px;
   letter-spacing: 2px;
   font-weight: 300;
+}
+
+.close-anchor, .close-anchor:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .feature-detail-desc {
@@ -443,11 +453,13 @@ nav>ul>li>a {
   }
 
   .pricing-type {
-    font-size: 2.5em;
+    font-size: 2.2em;
+    margin-top: 5px;
   }
 
   .pricing-desc {
     padding: 10px;
+    margin-bottom: 0;
   }
 
   .feature-list {
@@ -483,6 +495,11 @@ nav>ul>li>a {
 
   #invoiceManagement .feature-desc-container {
     top: 5px;
+  }
+
+  .pricing-amount {
+    font-size: 2.2em;
+    margin-bottom: 0;
   }
 }
 

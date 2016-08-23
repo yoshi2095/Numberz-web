@@ -151,7 +151,7 @@ section:nth-child(9) {
   color: #FFF;
   letter-spacing: 1px;
   width: 80%;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   box-shadow: 0px 1px 1px 1px #888888;
   margin: 10px 0;
@@ -477,6 +477,7 @@ nav>ul>li>a {
   .btn-trynow {
     padding: 15px;
     width: 100%;
+    font-size: 12px;
   }
 
   .feature-detail-desc {
